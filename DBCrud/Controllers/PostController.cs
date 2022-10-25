@@ -44,15 +44,15 @@ namespace DBCrud.Controllers
             catch (Exception) { }
 
 
-            //if (ModelState.IsValid)
-            //{
-            post.Date = DateTime.Now;
+            if (ModelState.IsValid)
+            {
+                post.Date = DateTime.Now;
 
-            blogDbContext.Posts.AddAsync(post);
-            await blogDbContext.SaveChangesAsync();
-            TempData["Status"] = "New post added!";
-            return RedirectToAction("Index");
-            //}
+                blogDbContext.Posts.AddAsync(post);
+                await blogDbContext.SaveChangesAsync();
+                TempData["Status"] = "New post added!";
+                return RedirectToAction("Index");
+            }
 
             return View(post);
         }
