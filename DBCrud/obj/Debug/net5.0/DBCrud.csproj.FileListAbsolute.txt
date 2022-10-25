@@ -158,7 +158,6 @@ D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWor
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\DBCrud.runtimeconfig.json
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\DBCrud.runtimeconfig.dev.json
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\DBCrud.dll
-D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\ref\DBCrud.dll
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\DBCrud.pdb
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\DBCrud.Views.dll
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\DBCrud.Views.pdb
@@ -277,7 +276,6 @@ D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWor
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.RazorAssemblyInfo.cache
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.RazorAssemblyInfo.cs
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\staticwebassets\DBCrud.StaticWebAssets.Manifest.cache
-D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\staticwebassets\DBCrud.StaticWebAssets.xml
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\scopedcss\bundle\DBCrud.styles.css
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.TagHelpers.input.cache
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.TagHelpers.output.cache
@@ -304,3 +302,5 @@ D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWor
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\ref\DBCrud.dll
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.pdb
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.genruntimeconfig.cache
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\ref\DBCrud.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\staticwebassets\DBCrud.StaticWebAssets.xml

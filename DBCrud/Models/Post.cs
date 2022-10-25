@@ -19,7 +19,7 @@ namespace DBCrud.Models
         public string Content { get; set; }
         public DateTime Date { get; set; }
 
-        [Required]
+        //[Required]
         //   [DataType(DataType.Upload] 
         [Display(Name = "Image path : ")]
         public string ImageUrl { get; set; }
