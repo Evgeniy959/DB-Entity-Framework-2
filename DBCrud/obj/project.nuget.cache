@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y28tgh7S5jW0uvF+20tEjBUvKdL0kZcQiETDaqBIFyn0D556W2MsMoGXME6aiq0/vdYA67TYoBaIWv5hluca5Q==",
+  "dgSpecHash": "6vFX2ibNnEuGeVy74q4qMWSUH5NklkLRsjHh/HFxzEx7r2Yui+iBTQvM5G8N6dkfj+jc4bcQV5Hh3oD18jj9wg==",
   "success": true,
-  "projectFilePath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DBCrud\\DBCrud\\DBCrud.csproj",
+  "projectFilePath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DB-Entity-Framework-2\\DBCrud\\DBCrud.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Пользователь\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Пользователь\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

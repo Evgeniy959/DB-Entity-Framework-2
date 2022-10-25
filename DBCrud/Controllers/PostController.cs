@@ -1,4 +1,5 @@
-﻿using DBCrud.Models;
+﻿using DBCrud.Helpers;
+using DBCrud.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using System;
@@ -36,13 +37,11 @@ namespace DBCrud.Controllers
         //  [ValidateAntiForgeryToken]
         public async Task<IActionResult> Add(Post post, IFormFile ImageUrl)
         {
-            if (ImageUrl != null)
+            try
             {
-                var filename = $"{Guid.NewGuid()}{Path.GetExtension(ImageUrl.FileName)}";
-                using var fs = new FileStream(@$"wwwroot/uploads/{filename}", FileMode.Create);
-                await ImageUrl.CopyToAsync(fs);
-                post.ImageUrl = @$"/uploads/{filename}";
+                post.ImageUrl = await FileUploadHelper.Upload(ImageUrl);
             }
+            catch (Exception) { }
 
 
             //if (ModelState.IsValid)
@@ -54,7 +53,6 @@ namespace DBCrud.Controllers
             TempData["Status"] = "New post added!";
             return RedirectToAction("Index");
             //}
-
 
             return View(post);
         }

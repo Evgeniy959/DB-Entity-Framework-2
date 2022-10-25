@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DBCrud\\DBCrud\\DBCrud.csproj": {}
+    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DB-Entity-Framework-2\\DBCrud\\DBCrud.csproj": {}
   },
   "projects": {
-    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DBCrud\\DBCrud\\DBCrud.csproj": {
+    "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DB-Entity-Framework-2\\DBCrud\\DBCrud.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DBCrud\\DBCrud\\DBCrud.csproj",
+        "projectUniqueName": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DB-Entity-Framework-2\\DBCrud\\DBCrud.csproj",
         "projectName": "DBCrud",
-        "projectPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DBCrud\\DBCrud\\DBCrud.csproj",
+        "projectPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DB-Entity-Framework-2\\DBCrud\\DBCrud.csproj",
         "packagesPath": "C:\\Users\\Пользователь\\.nuget\\packages\\",
-        "outputPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DBCrud\\DBCrud\\obj\\",
+        "outputPath": "D:\\Сохранено\\Downloads\\Учеба\\C#\\Проекты C#\\ASP.NET\\ClassWork\\DB-Entity-Framework-2\\DBCrud\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

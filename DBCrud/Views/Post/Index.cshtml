@@ -31,7 +31,7 @@
             <tr>
                 <th scope="row">@(count++)</th>
                 <td>@item.Title</td>
-                <td>@item.Content</td>
+                <td>@Html.Raw(@item.Content)</td>
                 <td>@item.Date</td>
                 <td><img alt="ImageUrl" src="@item.ImageUrl" /></td>
             </tr>

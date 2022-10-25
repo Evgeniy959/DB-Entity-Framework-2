@@ -15,15 +15,13 @@
         <span class="text-danger" asp-validation-for="Title"></span>
     </div>
 
-    <div class="mb-3">
-        <label for="formFileMultiple" class="form-label">Multiple files input example</label>
-        <input name="ImageUrl" class="form-control" type="file" id="formFileMultiple" multiple>
-        <span class="text-danger" asp-validation-for="ImageUrl"></span>
+    <div class="form-group">
+        <input name="ImageUrl" class="form-control" type="file">
     </div>
 
     <div class="form-group">
         <label asp-for="Content"></label>
-        <textarea asp-for="Content" rows="3" class="form-control"></textarea>
+        <textarea id="tiny" asp-for="Content" rows="3" class="form-control"></textarea>
         <span class="text-danger" asp-validation-for="Content"></span>
     </div>
     <br />
@@ -42,9 +40,11 @@
 
 @section Scripts{
     @*    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
-
-        <partial name="_ValidationScriptsPartial"></partial>*@
+        <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>*@
+    <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
+    <script>tinymce.init({ selector: 'textarea' });</script>
+    @*   toolbar:'file edit view insert format tools table help'*@
+    <partial name="_ValidationScriptsPartial"></partial>
 
 }
 
