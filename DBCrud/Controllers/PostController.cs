@@ -2,6 +2,8 @@
 using DBCrud.Models;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -24,13 +26,15 @@ namespace DBCrud.Controllers
         public IActionResult Add()
         {
             //ModelState.AddModelError("Title", "99999");
+            ViewBag.Categories = new SelectList(blogDbContext.Categories, "Id", "Name"); ;
+            //ViewBag.Tags = new MultiSelectList(blogDbContext.Tags, "Id", "Name"); ;
             return View();
         }
 
         [HttpGet]
         public IActionResult Index()
         {
-            return View(blogDbContext.Posts.ToList());
+            return View(blogDbContext.Posts.Include(x => x.Category).ToList());
         }
 
         [HttpPost]
@@ -44,15 +48,15 @@ namespace DBCrud.Controllers
             catch (Exception) { }
 
 
-            if (ModelState.IsValid)
-            {
+            //if (ModelState.IsValid)
+            //{
                 post.Date = DateTime.Now;
 
                 blogDbContext.Posts.AddAsync(post);
                 await blogDbContext.SaveChangesAsync();
                 TempData["Status"] = "New post added!";
                 return RedirectToAction("Index");
-            }
+            //}
 
             return View(post);
         }

@@ -28,7 +28,7 @@ namespace DBCrud.Models
         public Category Category { get; set; }
 
 
-        //public IEnumerable<PostTag> PostTags { get; set; }
+        public IEnumerable<PostTag> PostTags { get; set; }
 
     }
 }

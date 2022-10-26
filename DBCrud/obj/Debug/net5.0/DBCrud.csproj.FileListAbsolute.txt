@@ -302,4 +302,5 @@ D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWor
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.pdb
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.genruntimeconfig.cache
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.csproj.AssemblyReference.cache
-D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\refint\DBCrud.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\ref\DBCrud.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\staticwebassets\DBCrud.StaticWebAssets.xml
