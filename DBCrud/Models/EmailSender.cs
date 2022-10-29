@@ -53,7 +53,7 @@ namespace DBCrud.Models
             //using (var client = new SmtpClient())
             {
                 await client.ConnectAsync("smtp.yandex.ru", 25, false);
-                //await client.AuthenticateAsync("evgpilipenkoY@yandex.ru", "6e44c5fcd7109c183ecb62d77bc177ef-7b8c9ba8-9e632e85");
+                await client.AuthenticateAsync("evgpilipenkoY@yandex.ru", "tdutybq21@");
                 await client.SendAsync(emailMessage);
 
                 await client.DisconnectAsync(true);
