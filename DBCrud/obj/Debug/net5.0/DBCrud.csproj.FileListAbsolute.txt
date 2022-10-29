@@ -304,3 +304,13 @@ D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWor
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\DBCrud.csproj.AssemblyReference.cache
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\ref\DBCrud.dll
 D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\obj\Debug\net5.0\staticwebassets\DBCrud.StaticWebAssets.xml
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\libman.json
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\MailKit.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\MimeKit.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\BouncyCastle.Crypto.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\System.Formats.Asn1.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\System.Runtime.CompilerServices.Unsafe.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Security.Cryptography.Pkcs.dll
+D:\Сохранено\Downloads\Учеба\C#\Проекты C#\ASP.NET\ClassWork\DB-Entity-Framework-2\DBCrud\bin\Debug\net5.0\runtimes\win\lib\netcoreapp3.1\System.Text.Encoding.CodePages.dll

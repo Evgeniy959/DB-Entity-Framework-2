@@ -25,6 +25,7 @@ namespace DBCrud
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            services.AddTransient<IEmailSender, EmailSender>();
             services.AddDbContext<BlogDbContext>(options =>
             {
                 //  options.UseSqlServer(builder.Configuration["ConnectionStrings:SqlServer"]);

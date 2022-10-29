@@ -20,8 +20,19 @@ namespace DBCrud.Models
                 context.Categories.Add(new Category { Name = "Sport" });
                 context.Categories.Add(new Category { Name = "Music" });
                 context.Categories.Add(new Category { Name = "Games" });
-                context.SaveChanges();
             }
+
+            if (!context.Tags.Any())
+            {
+                context.Tags.Add(new Tag { Name = "One" });
+                context.Tags.Add(new Tag { Name = "Two" });
+                context.Tags.Add(new Tag { Name = "Three" });
+                context.Tags.Add(new Tag { Name = "Four" });
+                context.Tags.Add(new Tag { Name = "Five" });
+
+            }
+
+            context.SaveChanges();
         }
     }
 }

@@ -26,23 +26,23 @@
     </div>
 
 
+    <div class="form-group">
+        <label>Tags : </label>
+        <select name="tags" id="tags" multiple asp-items="@ViewBag.Tags" class="form-control">
+        </select>
+    </div>
+
+
     @*<div class="form-group">
-            <label>Tags : </label>
-            <select name="tags" id="tags" multiple asp-items="@ViewBag.Tags" class="form-control">
+            <label  >Tags : </label>
+            <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control" multiple >
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>4</option>
             </select>
-        </div>
-
-
-         <div class="form-group">
-                <label  >Tags : </label>
-                <select asp-for="CategoryId" asp-items="@ViewBag.Categories" class="form-control" multiple >
-                    <option>1</option>
-                    <option>2</option>
-                    <option>3</option>
-                    <option>4</option>
-                    <option>4</option>
-                </select>
-            </div>*@
+        </div>*@
     <br />
     @* <div class="form-floating">
           <select class="form-select" id="floatingSelect" aria-label="Floating label select example">
@@ -76,9 +76,14 @@
 @section Scripts{
     @*    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
         <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>*@
+    <script src="/lib/chosen/chosen.jquery.js"></script>
+    <script>
+        $("#tags").chosen();
+    </script>
     <script src="https://cdn.tiny.cloud/1/no-api-key/tinymce/6/tinymce.min.js" referrerpolicy="origin"></script>
     <script>tinymce.init({ selector: 'textarea' });</script>
     @*   toolbar:'file edit view insert format tools table help'*@
+
     <partial name="_ValidationScriptsPartial"></partial>
 
 }
